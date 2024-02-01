@@ -30,7 +30,7 @@ const tools = [
         properties: {
           location: {
             type: "string",
-            description: "The city and state, e.g. San Francisco, CA",
+            description: "The city and state, e.g. San Francisco",
           },
           unit: { type: "string", enum: ["celsius", "fahrenheit"] },
         },
